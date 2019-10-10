@@ -59,6 +59,6 @@ steps:
   workingDirectory: '$(modulePath)'
   displayName: 'Build'
 
-- script: go test -v ./...
-  workingDirectory: '$(modulePath)'
-  displayName: 'Run tests'
+# - script: go test -v ./...
+#   workingDirectory: '$(modulePath)'
+#   displayName: 'Run tests'
